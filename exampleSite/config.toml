@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = "5"
 summaryLength = "10"
 theme = "northendlab-hugo"
-title = "Northendlab | Blog Template"
+title = "Moxi Lab"
 [menu]
 footer = []
 [[menu.main]]
@@ -29,16 +29,8 @@ logo = "images/moxi-text.png"
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 image = "images/banner/illustration.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
-[params.cta]
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-[params.cta.button]
-enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+title = "Clean. Simple. Energy."
+sub = "Moxi has everything you need with nothing you don’t. We focus on the truly important ingredients to provide lasting energy and focus. We are currently hard at work to get moxi into your hands." 
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
