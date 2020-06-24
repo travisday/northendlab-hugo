@@ -1,4 +1,4 @@
-baseURL = "https://drinkmoxi.netlify.app/"
+baseURL = "https://netlify.app/"
 disqusShortname = ""
 languageCode = "en-us"
 paginate = "5"
