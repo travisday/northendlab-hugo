@@ -12,14 +12,6 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/data
-  label: Tools
-  create: documents
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - tools
-- type: directory
   path: exampleSite/content/author
   label: Author
   create: documents
@@ -29,11 +21,6 @@ sections:
 - type: document
   path: exampleSite/documentation
   label: Documentation
-- type: directory
-  path: exampleSite/content/contact
-  label: Contact
-  create: all
-  match: "**/*"
 - type: directory
   path: exampleSite
   label: Configuration
