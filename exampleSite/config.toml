@@ -8,6 +8,10 @@ title = "Northendlab | Blog Template"
 [menu]
 footer = []
 [[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = "1"
+[[menu.main]]
 URL = "about"
 name = "About"
 weight = "2"
