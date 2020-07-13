@@ -4,7 +4,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand"href="{{ .Site.BaseURL }}"><img class="img-fluid" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}"></a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+      <button class="navbar-toggler text-light border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu h3"></i>
       </button>
 
@@ -36,12 +36,12 @@
         {{ if .Site.Params.search.enable }}
         {{ "<!-- search -->" | safeHTML }}
         <div class="search">
-          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <button id="searchOpen" class="search-btn"><i class="ti-search text-light"></i></button>
           <div class="search-wrapper">
             <form action="{{ `search` | absURL }}" class="h-100">
-              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+              <input class="search-box px-4 text-light" style="caret-color: white" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
             </form>
-            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+            <button id="searchClose" class="search-close"><i class="ti-close text-light"></i></button>
           </div>
         </div>
         {{ end }}

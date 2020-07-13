@@ -165,7 +165,8 @@ a.text-primary:hover {
   &:focus{
     outline: 0;
     box-shadow: none;
-    border-color: $primary-color;
+    border: 3px solid $primary-color;
+    background-color: $body-color;
   }
 }
 
