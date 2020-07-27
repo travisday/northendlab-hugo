@@ -1,9 +1,8 @@
 +++
 author = "Travis Day"
-categories = []
+categories = ["Drugs"]
 date = 2020-07-27T20:00:00Z
 description = "This is in an introduction to a series of articles where I discuss different drugs and their history, uses, social imapct, and pharmacodynamics. "
-draft = true
 image = ""
 title = "Lets Talk About Drugs"
 type = "post"
