@@ -24,5 +24,3 @@ fields:
   name: type
   label: type
   default: post
-pages:
-- exampleSite/content/posts/lets-talk-about-drugs.md
