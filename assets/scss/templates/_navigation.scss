@@ -10,6 +10,15 @@
   }
 }
 
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+
+  .navbar-brand img {
+      max-height: 50%;
+  }
+}
+
 .nav-bg {
   background-color: $white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.161);
